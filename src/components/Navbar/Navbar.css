@@ -1,0 +1,114 @@
+nav {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  background: black;
+}
+.link {
+  text-decoration: none;
+  display: flex;
+  color: white;
+  align-items: center;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+}
+.mobile-menu-icon {
+  display: none;
+}
+.icons {
+  display: flex;
+  align-items: center;
+}
+.icon-tabler {
+  margin-right: 5px;
+}
+.github-icon {
+  color: white;
+}
+.menu-items {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-items,
+  .signup-button,
+  .github-corner {
+    display: none;
+  }
+  .mobile-menu-icon {
+    display: block;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 4vh;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+  }
+
+  
+  
+.github {
+  margin-left: -18% !important;
+  margin-right: 10% !important;
+}
+.github a{
+  color: white;
+  margin-right: 8px;
+}
+
+
+.linkedin{
+  margin-top: 6px;
+  margin-right: 10% !important;
+}
+.linkedin a{
+  color: white;  margin-right: 8px;
+}
+
+
+
+.mail {
+  margin-top: 6px;
+  margin-right: 10% !important;
+}
+.mail a{
+  color: white;
+  margin-right: 8px;
+}
+
+}
+
+
+
+.github {
+  margin-top: 6px;
+}
+.github a{
+  color: white;
+  margin-right: 8px;
+}
+
+
+.linkedin{
+  margin-top: 6px;
+}
+.linkedin a{
+  color: white;  margin-right: 8px;
+}
+
+
+
+.mail {
+  margin-top: 6px;
+}
+.mail a{
+  color: white;
+  margin-right: 8px;
+}
